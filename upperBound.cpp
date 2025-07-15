@@ -8,7 +8,7 @@ using namespace std;
 
 class Solution {
   public:
-    int lowerBound(vector<int>& nums, int target) {
+    int upperBound(vector<int>& nums, int target) {
         int s = 0;
         int e = nums.size() - 1;
         int ans = nums.size();
